@@ -73,12 +73,15 @@ body .container .card {
   padding-bottom: 28px;
 }
 body .container .card .bg {
+  position: relative;
+}
+body .container .card .bg > img {
   border-radius: 15px 15px 0 0;
 }
-body .container .card .avatar {
+body .container .card .bg .avatar {
   position: absolute;
-  left: calc(50% - 48px);
-  top: calc(50% - 48px);
+  top: 90px;
+  right: 127px;
   border-radius: 50%;
 }
 body .container .card h1 {
@@ -93,7 +96,7 @@ body .container .card h1 > span {
   color: hsl(227, 10%, 46%);
   margin-left: 9px;
 }
-body .container .card h4 {
+body .container .card h2 {
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
